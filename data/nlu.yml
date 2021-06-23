@@ -1,0 +1,96 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - Hallo
+    - Howdy
+    - Grüß Gott
+    - Guten morgen
+    - Servus
+    - Hi
+- intent: goodbye
+  examples: |
+    - Ciau
+    - Bis denn
+    - Bye bye
+    - Auf wiedersehen
+
+- intent: affirm
+  examples: |
+    - ja
+    - j
+    - Stimmt
+    - Yah
+    - yup
+    - Korrekt
+- intent: deny
+  examples: |
+    - nein
+    - no
+    - nope
+    - Ich glaube es nicht
+    - Bitte nicht
+    - no way
+- intent: mood_great
+  examples: |
+    - Super
+    - Toll
+    - Prima
+    - Erstklassig
+    - Wundervoll
+- intent: mood_unhappy
+  examples: |
+    - Ich fühle mich schrecklich.
+    - Ich bin traurig.
+    - Es geht mir nicht gut.
+    - Alles ist schlecht. 
+- intent: bot_challenge
+  examples: |
+    - Bist du ein Bot?
+    - Bist du ein Mensch?
+    - Spreche ich mit einem Bot?
+    - Spreche ich mit einem Bot?
+- intent: homework
+  examples: |
+    - Welche Hausaufgaben haben ich auf?
+    - Welche Hausaufgaben müssen wir erledigen?
+    - Welche Aufgaben muss ich noch machen?
+    - Welche Aufgaben gibt es zu tun?
+    - Welche Hausaufgaben?
+- intent: exam
+  examples: |
+    - Wann findet die Klausur statt?
+    - Wann ist die Prüfung?
+    - Gibt es eine Klausur?
+    - Wann ist die Abschlussprüfung?
+    - Wann ist der Klausurtermin?
+- intent: power_analysis
+  examples: |
+    - In welchem Modul wurde die Poweranalyse behandelt?
+    - Wie funktioniert die Power Analyse ?
+    - Wo wurde die Power Analyse behanndelt
+    - Was ist eine Poweranalyse?
+- intent: factorial_survey
+  examples: |
+    - Was ist ein faktorielles Survey?
+    - Was ist ein Vignetten Studie?
+    - Wo werden faktorielle Survey besprochen?
+    - Wie funktioniert ein faktorielles Survey?
+
+- intent: ceteris_paribus
+  examples: |
+    - Was heißt ceteris paribus?
+    - Erkläre mir ceteris paribus.
+    - Was meint der Begriff ceteris paribus.
+
+- intent: out_of_scope
+  examples: |
+    - Was soll ich lernen?
+    - Kommt das Thema in der Klausur dran?
+    - Ist das Thema wichtig?
+    - Ist das Thema klausurrelevant?
+    - Muss ich das lernen?
+
+
+
