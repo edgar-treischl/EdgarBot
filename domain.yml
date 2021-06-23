@@ -1,5 +1,9 @@
 version: '2.0'
-
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 intents:
 - greet:
     use_entities: true
@@ -44,27 +48,20 @@ responses:
   utter_exam:
   - text: Die Klausur findet am Montag den 05.07.2021 um 15:00 Uhr in der Regensburger Straße 160, Raum 1.041 statt.
   utter_power_analysis:
-  - text: "Die Power Analyse wurde im Modul 8 behandelt und damit kann man berechnen, wie viele Fälle man braucht um
-  mit hinreichender Sicherheit einen Effekt zu finden, wenn der Effekt wirklich besteht."
+  - text: Die Power Analyse wurde im Modul 8 behandelt und damit kann man berechnen, wie viele Fälle man braucht um mit hinreichender Sicherheit einen Effekt zu finden, wenn der Effekt wirklich besteht.
   utter_link_pw:
-  - text: "<a href='https://www.studon.fau.de/studon/data/StudOn/lm_data/lm_5378264/index.html#/22/1/' target='_blank'>Hier gehts zum Modul!</a>"
+  - text: <a href='https://www.studon.fau.de/studon/data/StudOn/lm_data/lm_5378264/index.html#/22/1/' target='_blank'>Hier gehts zum Modul!</a>
   utter_factorial_survey:
-  - text: "Bei einem faktorielle Survey werden hypothetische Szenarien beschrieben und die Probanden sollen beurteilen
-  wie sie in der beschriebenen Situation sich verhalten haben"
+  - text: Bei einem faktorielle Survey werden hypothetische Szenarien beschrieben und die Probanden sollen beurteilen wie sie in der beschriebenen Situation sich verhalten haben
   utter_link_fs:
-  - text: "<a href='https://www.studon.fau.de/studon/data/StudOn/lm_data/lm_5378264/index.html#/23/' target='_blank'>Hier gehts zum Modul!</a>"
-
+  - text: https://www.studon.fau.de/studon/data/StudOn/lm_data/lm_5378264/index.html#/23/
   utter_ceteris_paribus:
-  - text: "Ceteris paribus heißt unter sonst gleichen Bedingungen. Beispielsweise wird bei der Regression eine Drittvaribale kontrolliert, weil die Sorge vorhanden ist dass nicht die gleichen Bedingungen vorliegen und die Drittvariable einen Effekt vermittelt."
+  - text: Ceteris paribus heißt unter sonst gleichen Bedingungen. Beispielsweise wird bei der Regression eine Drittvaribale kontrolliert, weil die Sorge vorhanden ist dass nicht die gleichen Bedingungen vorliegen und die Drittvariable einen Effekt vermittelt.
   utter_link_cp:
-  - text: "<a href='https://www.studon.fau.de/studon/data/StudOn/lm_data/lm_5316332/index.html#/7' target='_blank'>Hier gehts zum Modul!</a>"
-
-
-
+  - text: <a href='https://www.studon.fau.de/studon/data/StudOn/lm_data/lm_5316332/index.html#/7' target='_blank'>Hier gehts zum Modul!</a>
   utter_out_of_scope:
   - text: Keine Ahnung, ich bin doch nur ein FAUbot!
   - text: What the heck, don't ask me!
-
   utter_goodbye:
   - text: Bis bald!
   utter_iamabot:
