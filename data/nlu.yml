@@ -15,7 +15,6 @@ nlu:
     - Bis denn
     - Bye bye
     - Auf wiedersehen
-
 - intent: affirm
   examples: |
     - ja
@@ -44,12 +43,11 @@ nlu:
     - Ich fühle mich schrecklich.
     - Ich bin traurig.
     - Es geht mir nicht gut.
-    - Alles ist schlecht. 
+    - Alles ist schlecht.
 - intent: bot_challenge
   examples: |
     - Bist du ein Bot?
     - Bist du ein Mensch?
-    - Spreche ich mit einem Bot?
     - Spreche ich mit einem Bot?
 - intent: homework
   examples: |
@@ -77,13 +75,12 @@ nlu:
     - Was ist ein Vignetten Studie?
     - Wo werden faktorielle Survey besprochen?
     - Wie funktioniert ein faktorielles Survey?
-
 - intent: ceteris_paribus
   examples: |
     - Was heißt ceteris paribus?
     - Erkläre mir ceteris paribus.
     - Was meint der Begriff ceteris paribus.
-
+    - Kennst du Ceteris paribus?
 - intent: out_of_scope
   examples: |
     - Was soll ich lernen?
@@ -91,6 +88,3 @@ nlu:
     - Ist das Thema wichtig?
     - Ist das Thema klausurrelevant?
     - Muss ich das lernen?
-
-
-
