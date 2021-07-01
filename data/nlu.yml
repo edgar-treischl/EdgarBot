@@ -83,6 +83,10 @@ nlu:
     - Was heißt ceteris paribus?
     - Erkläre mir ceteris paribus.
     - Was meint der Begriff ceteris paribus.
+    - Was meint man wenn man ceteris paribus sagt.
+    - Was versteht man unter dem Begriff ceteris paribus?
+
+
 
 - intent: out_of_scope
   examples: |

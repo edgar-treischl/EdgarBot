@@ -32,6 +32,8 @@ slots: {}
 responses:
   utter_greet:
   - text: Servus, ich bin Edgar Bot, wie kann ich dir weiterhelfen?
+  - text: Ahoi, was kann ich tun?
+
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Kann ich dich aufbauen:'
